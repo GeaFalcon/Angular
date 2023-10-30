@@ -1,0 +1,9 @@
+Toda pagina hecha con Angular es una SPA (Single page aplication)
+
+Las actualizaciones de elementos se hace a traves de AJAX  , con respuestas Json
+
+Un componente tiene que estar declarado en app.module.ts y llamarse IGUAL que el nombre del archivo
+
+Para generar un componente el comando es ng g c (nombreDelComponente)
+
+Para poner varias lineas en un componente en linea se utiliza la comilla de ES6 (´) 
