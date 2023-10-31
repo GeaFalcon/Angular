@@ -1,1 +1,9 @@
-<p>empleado works!</p>
+<p>{{ nombre }}</p>
+<p>{{ apellido }}</p>
+<p>{{ edad < 18 ? "Mayor" : "Menor" }}</p>
+<p>{{ test.value }}</p>
+test <input type="text" #test (keyup)="llamaTest(test.value)" disabled="{{ testValue.value }}">
+
+<input type="checkbox" #testValue [checked]="valueCheck">
+
+{{validacionCheck()}}

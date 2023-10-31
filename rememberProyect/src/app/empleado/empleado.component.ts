@@ -11,4 +11,15 @@ import { Component } from '@angular/core';
 })
 export class EmpleadoComponent {
 
+  nombre = "Jose";
+  apellido = "Diaz";
+  edad = 28;
+  valueCheck = false;
+  testValue = true;
+
+  llamaTest(value:String){
+  }
+  validacionCheck(){
+    this.valueCheck = true
+  }
 }
